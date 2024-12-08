@@ -77,7 +77,7 @@
       <button
         on:click={() => {
         activeTab = 'home'; 
-        goto('{base}home'); // Navigate to the "home" route
+        goto('/chirply.github.io/home'); // Navigate to the "home" route
         }}
         class="flex items-center space-x-2 text-lg font-medium hover:text-blue-400"
         class:!text-blue-500={activeTab === "home"}>
@@ -88,7 +88,7 @@
       <button
         on:click={() => {
         activeTab = 'explore'; 
-        goto('{base}explore'); // Navigate to the "explore" route
+        goto('/chirply.github.io/explore'); // Navigate to the "explore" route
         }}
         class="flex items-center space-x-2 text-lg font-medium hover:text-blue-400"
         class:!text-blue-500={activeTab === "explore"}>
@@ -99,7 +99,7 @@
       <button
       on:click={() => {
       activeTab = 'messages'; 
-      goto('{base}messages'); // Navigate to the "messages" route
+      goto('/chirply.github.io/messages'); // Navigate to the "messages" route
       }}
         class="flex items-center space-x-2 text-lg font-medium hover:text-blue-400"
         class:!text-blue-500={activeTab === "messages"}>
