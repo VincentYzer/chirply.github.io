@@ -19,7 +19,7 @@ const config = {
 		default: true,
     },
     paths: {
-        base: process.env.NODE_ENV === 'production' ? '/chirply.github.io' : ''  // Replace 'project2' with your repo name
+        base: process.env.NODE_ENV === 'production' ? '/chirply.github.io/' : ''  // Replace 'project2' with your repo name
     },
 };
 
