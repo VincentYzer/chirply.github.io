@@ -25,14 +25,14 @@
             // Login logic
             if (email === validEmail && password === validPassword) {
                 alert('Login Successful!');
-                goto("/chirply.github.io/home"); // Redirect to /home
+                goto("/home"); // Redirect to /home
             } else {
                 error = 'Invalid email or password. Please try again.';
             }
         } else {
             // Sign Up logic (placeholder for now)
             alert('Account Created Successfully!');
-            goto("/chirply.github.io/home");
+            goto("/home");
         }
     }
 </script>
